@@ -1,1 +1,1 @@
-# manjaro-webdad
+# Manjaro WebDad Community Edition
