@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Workspaces -->
+  <Desktops height="2" width="3">
+    <Desktop name="Desktop">
+      <Background type="command">
+        /etc/webdad/jwm/workspaces/desktop
+      </Background>
+    </Desktop> 
+    <Desktop name="Steam Mode">
+      <Background type="command">
+        /etc/webdad/jwm/workspaces/steam-mode
+      </Background>
+    </Desktop> 
+    <Desktop name="Custom Mode">
+      <Background type="command">
+        /etc/webdad/jwm/workspaces/custom-mode
+      </Background>
+    </Desktop>
+    <Desktop name="Workspace 4">
+      <Background type="command">
+        /etc/webdad/jwm/workspaces/workspace4
+      </Background>
+    </Desktop> 
+    <Desktop name="Kodi Mode">
+      <Background type="command">
+       /etc/webdad/jwm/workspaces/kodi-mode
+      </Background></Desktop> 
+    <Desktop name="Terminal Mode">
+      <Background type="command">
+        /etc/webdad/jwm/workspaces/terminal-mode
+      </Background>
+    </Desktop>   
+  </Desktops>
+
+</JWM>

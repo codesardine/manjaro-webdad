@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<JWM>
+  
+  <StartupCommand>feh --bg-scale /usr/share/backgrounds/webdad-wallpaper.png</StartupCommand>
+ <StartupCommand>notify-send "Welcome to Manjaro WebDad"</StartupCommand>
+  <StartupCommand>compton</StartupCommand>
+  <StartupCommand>cairo-dock -o</StartupCommand>  
+  
+  <!-- manual -->
+  <StartupCommand>dex /usr/share/applications/polkit-gnome-authentication-agent-1.desktop</StartupCommand>
+  <StartupCommand>dex /usr/share/applications/notification-daemon.desktop</StartupCommand>
+  <!--autostart-->
+  <StartupCommand>sleep 6s &amp;&amp;dex -a</StartupCommand>
+  
+</JWM>

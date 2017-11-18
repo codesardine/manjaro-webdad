@@ -1,0 +1,3 @@
+#!/bin/bash
+
+notify-send "Customize This Mode Yourself"

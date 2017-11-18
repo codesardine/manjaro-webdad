@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<JWM>
+  
+  <Tray 
+    x="4" y="4"
+    layout="horizontal"
+    label="systray"
+    height="24"
+    layer="above"
+    halign="left"
+    valign="top">
+    <Dock spacing="4" width="20"/>
+  </Tray>
+
+</JWM> 	

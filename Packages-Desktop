@@ -1,0 +1,247 @@
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-dispatcher-ntpd
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+manjaro-settings-samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+grilo-plugins
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+>multilib manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+#kdeconnect
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+#gvfs-nfs
+gvfs-smb
+#gvfs-google
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+#autoconf
+#automake
+#binutils
+#bison
+#fakeroot
+#flex
+#gcc
+#>multilib gcc-libs-multilib
+#>multilib gcc-multilib
+#libtool
+#m4
+#make
+#patch
+#pkg-config
+#>multilib lib32-flex
+
+# Extra packages for AUR support
+#>extra git
+#>extra patchutils
+#extra subversion
+
+## Fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-roboto
+
+## Games
+>extra steam-manjaro
+#gnome-games
+
+## Package management
+pamac
+
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+
+## Printing
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+>extra manjaro-printer
+
+## Optional dependencies for hplip
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
+
+## Display manager
+lightdm
+lightdm-webkit2-greeter-manjaro
+accountsservice  # Enhanced user accounts handling
+
+# bluetooth
+bluez-cups
+bluez-firmware
+bluez-hid2hci
+bluez-plugins
+#bluez-tools
+#bluez-utils
+
+# WebDad desktop
+skippy-xd
+jade-dashboard
+cairo-dock
+jwm
+compton
+hyper
+cairo-dock-plug-ins
+
+# WebDad Essentials
+pa-applet
+blueman
+notification-daemon
+dex
+feh
+polkit-gnome
+manjaro-hello
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+network-manager-applet
+pavucontrol
+gnome-keyring      # fix wlan segfault
+
+## WebDad Group
+#tumbler
+nautilus
+nautilus-empty-file
+nautilus-open-terminal
+nautilus-sendto
+nautilus-share
+nautilus-admin
+#seahorse
+#seahorse-nautilus
+sushi
+file-roller
+#preload
+#ffmpegthumbnailer  # tumbler - for video thumbnails
+#freetype2          # tumbler - for font thumbnails
+gconf               # fix qt-theme
+#gksu
+#libgsf             # tumbler - for ODF thumbnails
+#libopenraw         # tumbler - for RAW thumbnails
+#poppler-glib       # tumbler - for PDF thumbnails
+#>extra poppler-data  # CKJ support for pdf
+
+## Themes QT/GTK/SDDM
+#>extra manjaro-wallpapers-17.0
+paper-icon-theme-git
+adapta-maia-theme
+xcursor-breeze
+#vibrancy-colors
+
+## Applications
+gthumb
+#meld
+>extra simple-scan
+clementine
+imagewriter
+#gtksourceview-pkgbuild
+gnome-screenshot
+dmidecode # optional dependency inxi
+gedit
+nano
+chromium
+#>extra gimp
+gparted
+#>extra evolution
+gufw
+#>extra hexchat
+#htop
+evince
+#brasero
+inxi
+#>extra libreoffice-fresh
+>extra vlc-nightly
+
+# Optional dependencies engrampa
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support
+>extra lrzip
+
+## Documentation
+manjaro-documentation-en
+
+## Settings packages
+manjaro-browser-settings
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xf86-input-wacom
+
+## Xorg Server and Graphics
+xdg-user-dirs
+xorg-server
+xorg-xinit
+xorg-xkill
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-su
+
+## Misc
+manjaro-hotfixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docbase="/home/mirco/Desktop/Downloads/cairo-clock-0.3.1/themes/zen"
+   sodipodi:docname="clock-face.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 50 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="100 : 50 : 1"
+       inkscape:persp3d-origin="50 : 33.333333 : 1"
+       id="perspective35" />
+    <linearGradient
+       id="linearGradient2202">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.1254902;"
+         offset="0"
+         id="stop2204" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.1882353;"
+         offset="1"
+         id="stop2206" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2202"
+       id="linearGradient6937"
+       x1="42.3339"
+       y1="5.7495761"
+       x2="51.39563"
+       y2="40.789383"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2202"
+       id="linearGradient6940"
+       gradientUnits="userSpaceOnUse"
+       x1="42.3339"
+       y1="5.7495761"
+       x2="51.39563"
+       y2="40.789383"
+       gradientTransform="translate(4e-6,2.526377)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2202"
+       id="linearGradient6944"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(4e-6,2.526377)"
+       x1="-4.8009496"
+       y1="48.148388"
+       x2="83.533028"
+       y2="32.783226" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2202"
+       id="linearGradient6947"
+       gradientUnits="userSpaceOnUse"
+       x1="-4.8009496"
+       y1="48.148388"
+       x2="83.533028"
+       y2="32.783226"
+       gradientTransform="translate(-6.712488e-2,-5.236443e-2)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.8681729"
+     inkscape:cx="51.241711"
+     inkscape:cy="49.454851"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="951"
+     inkscape:window-height="750"
+     inkscape:window-x="14"
+     inkscape:window-y="20"
+     showgrid="false">
+    <sodipodi:guide
+       orientation="horizontal"
+       position="50"
+       id="guide1307" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="50"
+       id="guide1309" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="100"
+       id="guide1311" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="0"
+       id="guide1313" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="100"
+       id="guide1315" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="0"
+       id="guide1317" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="90.060241"
+       id="guide1319" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="10.040161"
+       id="guide1321" />
+    <sodipodi:guide
+       orientation="vertical"
+       position="90.060241"
+       id="guide1323" />
+    <sodipodi:guide
+       orientation="horizontal"
+       position="10.040161"
+       id="guide1325" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#af1d1d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1924613;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1327"
+       sodipodi:cx="29.116467"
+       sodipodi:cy="22.941767"
+       sodipodi:rx="18.674698"
+       sodipodi:ry="12.700803"
+       d="M 47.791164 22.941767 A 18.674698 12.700803 0 1 1  10.441769,22.941767 A 18.674698 12.700803 0 1 1  47.791164 22.941767 z"
+       transform="matrix(1.259313,-1.733296,2.548562,1.85164,-45.13394,57.98624)" />
+    <path
+       style="fill:url(#linearGradient6947);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 49.276625,9.9476326 C 37.176242,10.188319 25.339958,15.908561 17.682875,26.447633 C 11.990772,34.282142 9.5526477,43.477015 10.120375,52.447633 C 48.240774,41.619103 50.895045,41.279368 88.807875,40.103883 C 86.590317,31.35656 81.423663,23.318716 73.557875,17.603883 C 66.22938,12.279416 57.690798,9.7802686 49.276625,9.9476326 z "
+       id="path5175" />
+  </g>
+</svg>

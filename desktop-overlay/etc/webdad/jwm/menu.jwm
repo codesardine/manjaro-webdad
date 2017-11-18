@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<JWM>
+
+  <!-- The root menu. -->
+  <RootMenu onroot="3">
+    <Program label="Terminal">$JADE_TERMINAL</Program>
+  </RootMenu>
+
+</JWM>

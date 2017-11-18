@@ -1,0 +1,23 @@
+#!en
+
+[Desktop Entry]
+
+Name=
+Exec=
+#S Image's name or path :
+Icon=
+
+#X[Extra parameters]
+frame_extra=
+#f[0;100] Order you want for this launcher among the others:
+Order=5.6875
+#d Name of the container it belongs to:
+Container=_MainDock_
+
+Nb subicons=0
+
+Renderer=
+
+Base URI=
+Is mounting point=false
+Is container=false

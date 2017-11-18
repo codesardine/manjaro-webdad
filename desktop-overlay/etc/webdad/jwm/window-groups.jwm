@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<JWM>
+
+  <Group>
+    <Name>jade-dashboard</Name>
+    <Option>nopager</Option>   
+    <Option>maximized</Option>
+    <Option>nomin</Option>
+    <Option>noshade</Option> 
+  </Group>
+  <Group>
+    <Name>steam</Name>
+    <Option>nofullscreen</Option>
+    <Option>noborder</Option>
+    <Option>notitle</Option> 
+    <Option>maximized</Option>    
+    <Option>nopager</Option>
+  </Group>
+  <Group>
+    <Name>manjaro-hello</Name>
+    <Name>calamares</Name>
+    <Option>layer:above</Option>
+  </Group>
+  <Name>kodi</Name>
+    <Option>nofullscreen</Option>
+    <Option>noborder</Option>
+    <Option>notitle</Option> 
+    <Option>maximized</Option> 
+    <Option>nopager</Option>
+
+</JWM>
