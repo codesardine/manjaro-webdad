@@ -14,7 +14,7 @@ if pgrep -x "kodi" > /dev/null;
 then     pkill kodi; 
 fi  
 
-#if pgrep -x "jade-dashboard" > /dev/null; 
-#then     echo "Running"; 
-#else     dex /usr/share/applications/jade-dashboard.desktop;
-#fi     
+if pgrep -x "jade-dashboard" > /dev/null; 
+then     echo "Running"; 
+else     /opt/jade/jade-dashboard && notify-send "Jade Ready";
+fi     

@@ -12,8 +12,12 @@ if pgrep -x "steam" > /dev/null;
 then     pkill steam; 
 fi &
 
+if pgrep -x "jade-dashboard" > /dev/null; 
+then     pkill jade-dashboard; 
+fi &
+
 if pgrep -x "$JADE_TERMINAL" > /dev/null; 
 then     echo "Running";
-else     $JADE_TERMINAL; 
+else     $JADE_TERMINAL && notify-send "Hyper Ready"; 
 fi 
 

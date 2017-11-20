@@ -12,7 +12,11 @@ if pgrep -x "$JADE_TERMINAL" > /dev/null;
 then     pkill $JADE_TERMINAL; 
 fi &
 
+if pgrep -x "jade-dashboard" > /dev/null; 
+then     pkill jade-dashboard; 
+fi &
+
 if pgrep -x "kodi" > /dev/null; 
 then     echo "Running"; 
-else     kodi && notify-send "Kodi Mode Loaded";
+else     kodi && notify-send "Kodi Ready";
 fi

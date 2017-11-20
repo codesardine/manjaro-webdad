@@ -10,6 +10,6 @@
   <StartupCommand>dex /usr/share/applications/polkit-gnome-authentication-agent-1.desktop</StartupCommand>
   <StartupCommand>dex /usr/share/applications/notification-daemon.desktop</StartupCommand>
   <!--autostart-->
-  <StartupCommand>sleep 6s &amp;&amp;dex -a</StartupCommand>
+  <StartupCommand>dex -a</StartupCommand>
   
 </JWM>
