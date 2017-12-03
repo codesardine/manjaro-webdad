@@ -29,10 +29,10 @@ module.exports = {
     foregroundColor: '#E91E63',
 
     // terminal background color
-    backgroundColor: '#2E3436',
+    backgroundColor: '#222d32',
 
     // border color (window, tabs)
-    borderColor: '#2E3436',
+    borderColor: '#222d32',
 
     // custom css to embed in the main window
     css: '',

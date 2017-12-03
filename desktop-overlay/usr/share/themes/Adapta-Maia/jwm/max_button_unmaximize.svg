@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24.000001"
+   width="36"
+   height="72"
+   viewBox="0 0 36 72.000003"
    id="svg4747"
    version="1.1"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
@@ -20,23 +20,23 @@
      id="defs4749" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#808080"
+     pagecolor="#222d32"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="23.015797"
-     inkscape:cx="-6.355182"
-     inkscape:cy="12.51377"
+     inkscape:zoom="1.543626"
+     inkscape:cx="-49.465447"
+     inkscape:cy="67.945489"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1005"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1013"
+     inkscape:window-height="488"
+     inkscape:window-x="134"
+     inkscape:window-y="458"
+     inkscape:window-maximized="0"
      inkscape:document-rotation="0" />
   <metadata
      id="metadata4752">
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
@@ -71,24 +71,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1028.3622)">
-    <circle
-       style="opacity:1;fill:#222d32;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:1"
-       id="path4134"
-       cx="12"
-       cy="1040.3622"
-       r="10.000001" />
-    <circle
-       style="opacity:1;fill:#cfd8dc;fill-opacity:0.2;fill-rule:evenodd;stroke:none;stroke-width:9.60499954;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.75"
-       id="path5326"
-       cx="-14.999999"
-       cy="1040.3622"
-       r="10.000001" />
+     transform="translate(0,-980.3622)">
     <path
        sodipodi:nodetypes="cccccccccc"
        inkscape:connector-curvature="0"
        id="rect4656-2"
-       style="opacity:1;fill:#cfd8dc;fill-opacity:0.87000002;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.4"
-       d="m 10.125,1038.4872 h 2.5 v 2.5 h -2.5 z m -1.25,-1.25 h 6.25 v 6.25 h -6.25 z" />
+       style="opacity:1;fill:#ffffff;fill-opacity:0.87000002;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.4"
+       d="m 12.15,1010.5122 h 7.8 v 7.8 h -7.8 z m -3.9,-3.9 h 19.5 v 19.5 H 8.25 Z" />
   </g>
 </svg>

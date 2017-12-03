@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <JWM>
 
-    <Include>/etc/webdad/jwm/key-bindings.jwm</Include>
     <Include>/etc/webdad/jwm/menu.jwm</Include>
-    <Include>/etc/webdad/jwm/preferences.jwm</Include>
-    <Include>/etc/webdad/jwm/autostart.jwm</Include>
-    <Include>/usr/share/themes/Adapta-Maia/jwm/Adapta-Maia-theme.jwm</Include>
-    <Include>/etc/webdad/jwm/systray.jwm</Include>
     <Include>/etc/webdad/jwm/pager.jwm</Include>
+    <Include>/etc/webdad/jwm/systray.jwm</Include>
+    <Include>/etc/webdad/jwm/autostart.jwm</Include>
+    <Include>/etc/webdad/jwm/preferences.jwm</Include>
+    <Include>/etc/webdad/jwm/key-bindings.jwm</Include>
     <Include>/etc/webdad/jwm/window-groups.jwm</Include>
     <Include>/etc/webdad/jwm/workspaces/workspaces.jwm</Include>
-
+    <Include>/usr/share/themes/Adapta-Maia/jwm/Adapta-Maia-theme.jwm</Include>
+    
 </JWM>

@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   viewBox="0 0 24 24.000001"
+   width="36"
+   height="72"
+   viewBox="0 0 36 72.000003"
    id="svg4747"
    version="1.1"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
@@ -25,18 +25,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="23.375419"
-     inkscape:cx="4.8349976"
-     inkscape:cy="11.99573"
+     inkscape:zoom="2.0343283"
+     inkscape:cx="1.9015912"
+     inkscape:cy="50.481837"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1005"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1"
+     inkscape:window-width="809"
+     inkscape:window-height="488"
+     inkscape:window-x="495"
+     inkscape:window-y="547"
+     inkscape:window-maximized="0"
      inkscape:document-rotation="0" />
   <metadata
      id="metadata4752">
@@ -71,25 +71,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1028.3622)">
-    <circle
-       style="opacity:1;fill:#222d32;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:1"
-       id="path4134"
-       cx="12"
-       cy="1040.3622"
-       r="10.000001" />
-    <circle
-       style="opacity:1;fill:#cfd8dc;fill-opacity:0.2;fill-rule:evenodd;stroke:none;stroke-width:9.60499954;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.75"
-       id="path5326"
-       cx="-15"
-       cy="1040.3622"
-       r="10" />
+     transform="translate(0,-980.3622)">
     <rect
-       style="opacity:1;fill:#cfd8dc;fill-opacity:0.87000002;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.4"
+       style="opacity:1;fill:#ffffff;fill-opacity:0.87000002;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:0.4"
        id="rect4737-7"
-       width="6.25"
-       height="1.25"
-       x="8.875"
-       y="1044.1122" />
+       width="19"
+       height="4"
+       x="8.5"
+       y="1019.8622" />
   </g>
 </svg>

@@ -5,7 +5,7 @@ then     echo "Running";
 else     compton -b --config /usr/share/themes/Adapta-Maia/openbox-3/compton.conf;
 fi &
 
-notify-send "Terminal Mode Loading" &
+notify-send "Internet Browsing Mode Loading" &
 
 if pgrep -x "jade-dashboard" > /dev/null; 
 then     pkill jade-dashboard; 
@@ -23,8 +23,12 @@ if pgrep -x "gnome-games" > /dev/null;
 then     pkill gnome-games; 
 fi &
 
-if pgrep -x "nm-applet" > /dev/null; 
-then     pkill nm-applet; 
+if pgrep -x "msm_notifier" > /dev/null; 
+then     pkill msm_notifier; 
+fi &
+
+if pgrep -x "pamac-tray" > /dev/null; 
+then     pkill pamac-tray; 
 fi &
 
 if pgrep -x "cairo-dock" > /dev/null; 
@@ -32,8 +36,7 @@ then     echo "Running";
 else     cairo-dock -o;
 fi &
 
-if pgrep -x "$JADE_TERMINAL" > /dev/null; 
-then     echo "Running";
-else     $JADE_TERMINAL; 
-fi 
-
+if pgrep -x "$JADE_BROWSER" > /dev/null; 
+then     echo "Running"; 
+else     $JADE_BROWSER;
+fi

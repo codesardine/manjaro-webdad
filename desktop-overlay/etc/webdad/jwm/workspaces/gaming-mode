@@ -1,0 +1,40 @@
+#!/bin/bash
+
+notify-send "Gaming Mode Loading" &
+
+if pgrep -x "jade-dashboard" > /dev/null; 
+then     pkill jade-dashboard; 
+fi &
+
+if pgrep -x "cairo-dock" > /dev/null; 
+then     pkill cairo-dock; 
+fi &
+
+if pgrep -x "$JADE_BROWSER" > /dev/null; 
+then     pkill $JADE_BROWSER; 
+fi &
+
+if pgrep -x "$JADE_TERMINAL" > /dev/null; 
+then     pkill $JADE_TERMINAL; 
+fi &
+
+if pgrep -x "kodi" > /dev/null; 
+then     pkill kodi; 
+fi &
+
+if pgrep -x "msm_notifier" > /dev/null; 
+then     pkill msm_notifier; 
+fi &
+
+if pgrep -x "pamac-tray" > /dev/null; 
+then     pkill pamac-tray; 
+fi &
+
+if pgrep -x "compton" > /dev/null; 
+then     pkill compton; 
+fi &
+
+if pgrep -x "gnome-games" > /dev/null; 
+then     echo "Running"; 
+else     gnome-games;
+fi

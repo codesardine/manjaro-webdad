@@ -2,14 +2,13 @@
 <JWM>
   
   <Tray 
-    x="4" y="4"
-    layout="horizontal"
+    x="0" y="-1"
     label="systray"
-    height="24"
-    layer="above"
-    halign="left"
+    height="26"
     valign="top">
+    <Spacer width="5"/>
     <Dock spacing="4" width="20"/>
+    <Spacer width="-2000"/>
   </Tray>
 
 </JWM> 	

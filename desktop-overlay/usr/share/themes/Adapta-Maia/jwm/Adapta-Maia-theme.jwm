@@ -19,7 +19,7 @@
         <Active>
             <Foreground>#CFD8DC</Foreground>
             <Background>#222d32</Background>
-            <Outline>#ffffff00</Outline>
+            <Outline>#222d32</Outline>
         </Active>
     </WindowStyle>
 
@@ -31,7 +31,7 @@
 	<Outline>#222d32</Outline>
         <Active>
             <Foreground>#ececec</Foreground>
-            <Background>#222d32</Background>
+            <Background>#009688</Background>
         </Active>
     </MenuStyle>
 
@@ -50,30 +50,30 @@
         </Active>
     </TrayStyle>
 
-    <!-- Visual Style Pager. -->
+     <!-- Visual Style Pager. -->
     <PagerStyle>
         <Outline>#222d32</Outline>
         <Font>Roboto-12:weight=bold:antialias=true:encoding=utf8</Font>
-        <Text>#ececec</Text>
+        <Text>#666666</Text>
         <Foreground>#009688</Foreground>
         <Background>#222d32</Background>
         <Active>
             <Foreground>#e91e63</Foreground>
-            <Background>#222d32</Background>
+            <Background>#ffffff</Background>
         </Active>
     </PagerStyle>
 
     <!-- Visual Style Pop. -->
     <PopupStyle>
-        <Font>Roboto-10:antialias=true:encoding=utf8</Font>
+        <Font>Roboto-14:antialias=true:encoding=utf8</Font>
         <Outline>#222d32</Outline>
-        <Foreground>##ececec</Foreground>
+        <Foreground>#ececec</Foreground>
         <Background>#222d32</Background>
-        <delay>100</delay>
+        <delay>0</delay>
     </PopupStyle>
 
     <!-- Visual Style Clock. -->
     <ClockStyle>
         <Font>Roboto-11:weight=demibold:antialias=true:encoding=utf8</Font>
-        <Background>#c59a7a</Background>
+        <Background>#222d32</Background>
 </ClockStyle>

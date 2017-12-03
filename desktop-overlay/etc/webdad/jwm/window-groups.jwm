@@ -3,17 +3,12 @@
 
   <Group>
     <Name>jade-dashboard</Name>
-    <Option>nopager</Option>   
-    <Option>maximized</Option>
-    <Option>nomin</Option>
-    <Option>noshade</Option> 
+    <Option>nomin</Option> 
   </Group>
   <Group>
-    <Name>steam</Name>
-    <Option>nofullscreen</Option>
-    <Option>noborder</Option>
-    <Option>notitle</Option> 
-    <Option>maximized</Option>    
+    <Name>gnome-games</Name>
+    <Name>kodi</Name>
+    <Name>jade-dashboard</Name>
     <Option>nopager</Option>
   </Group>
   <Group>
@@ -21,11 +16,14 @@
     <Name>calamares</Name>
     <Option>layer:above</Option>
   </Group>
-  <Name>kodi</Name>
-    <Option>nofullscreen</Option>
-    <Option>noborder</Option>
-    <Option>notitle</Option> 
-    <Option>maximized</Option> 
-    <Option>nopager</Option>
+  <Group>
+    <Name>firefox</Name>
+    <Name>chromium</Name>
+    <Name>hyper</Name>
+    <Name>manjaro-hello</Name>
+    <Name>calamares</Name>
+    <Name>jade-dashboard</Name>
+    <Option>maximized</Option>
+  </Group>
 
 </JWM>

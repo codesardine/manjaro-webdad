@@ -34,7 +34,7 @@ pulseaudio-ctl
 pulseaudio-zeroconf
 
 ## Connect Packages
-#kdeconnect
+kdeconnect
 android-tools
 android-udev
 gvfs
@@ -73,21 +73,21 @@ udisks2
 
 ## Fonts
 noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
+#noto-fonts-cjk
 ttf-roboto
+#ttf-liberation
 
 ## Games
 >extra steam-manjaro
-#gnome-games
+gnome-games
 
 ## Package management
 pamac
 
 ## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
+#>extra jdk8-openjdk
+#>extra jre8-openjdk-headless
+#>extra jre8-openjdk
 
 ## Printing
 >extra cups
@@ -120,6 +120,12 @@ bluez-plugins
 #bluez-tools
 #bluez-utils
 
+# improve responsiveness 
+preload
+#cpulimit
+irqbalance
+tracker
+
 # WebDad desktop
 skippy-xd
 jade-dashboard
@@ -128,6 +134,8 @@ jwm
 compton
 hyper
 cairo-dock-plug-ins
+zeitgeist # needed for cairo-dock events
+gtk2 # needed for hyper
 
 # WebDad Essentials
 pa-applet
@@ -155,10 +163,10 @@ nautilus-admin
 #seahorse-nautilus
 sushi
 file-roller
-#preload
+
 #ffmpegthumbnailer  # tumbler - for video thumbnails
 #freetype2          # tumbler - for font thumbnails
-gconf               # fix qt-theme
+#gconf               # fix qt-theme
 #gksu
 #libgsf             # tumbler - for ODF thumbnails
 #libopenraw         # tumbler - for RAW thumbnails
@@ -170,22 +178,23 @@ gconf               # fix qt-theme
 paper-icon-theme-git
 adapta-maia-theme
 xcursor-breeze
-#vibrancy-colors
 
 ## Applications
+kodi
+lxrandr-gtk3
 gthumb
 #meld
->extra simple-scan
-clementine
-imagewriter
+#>extra simple-scan
+#clementine
+#imagewriter
 #gtksourceview-pkgbuild
 gnome-screenshot
-dmidecode # optional dependency inxi
+#dmidecode # optional dependency inxi
 gedit
 nano
 chromium
 #>extra gimp
-gparted
+#gparted
 #>extra evolution
 gufw
 #>extra hexchat

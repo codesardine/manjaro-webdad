@@ -3,35 +3,42 @@
 
     <!-- Workspaces -->
   <Desktops height="2" width="3">
-    <Desktop name="Desktop">
+
+    <Desktop name="Desktop Space">
       <Background type="command">
-        /etc/webdad/jwm/workspaces/desktop
-      </Background>
-    </Desktop> 
-    <Desktop name="Steam Mode">
-      <Background type="command">
-        /etc/webdad/jwm/workspaces/steam-mode
-      </Background>
-    </Desktop> 
-    <Desktop name="Custom Mode">
-      <Background type="command">
-        /etc/webdad/jwm/workspaces/custom-mode
+        /etc/webdad/jwm/workspaces/desktop-mode
       </Background>
     </Desktop>
-    <Desktop name="Workspace 4">
+
+    <Desktop name="Internet Browsing Space">
       <Background type="command">
-        /etc/webdad/jwm/workspaces/workspace4
+        /etc/webdad/jwm/workspaces/internet-browsing-mode
+      </Background>
+    </Desktop>  
+
+    <Desktop name="Media Center Space">
+      <Background type="command">
+       /etc/webdad/jwm/workspaces/media-center-mode
       </Background>
     </Desktop> 
-    <Desktop name="Kodi Mode">
+
+    <Desktop name="Spare Space">
       <Background type="command">
-       /etc/webdad/jwm/workspaces/kodi-mode
-      </Background></Desktop> 
-    <Desktop name="Terminal Mode">
+        /etc/webdad/jwm/workspaces/desktop-mode
+      </Background>
+    </Desktop>
+    <Desktop name="Gaming Space">
+      <Background type="command">
+        /etc/webdad/jwm/workspaces/gaming-mode
+      </Background>
+    </Desktop> 
+
+    <Desktop name="Terminal Space">
       <Background type="command">
         /etc/webdad/jwm/workspaces/terminal-mode
       </Background>
-    </Desktop>   
+    </Desktop>  
+     
   </Desktops>
 
 </JWM>

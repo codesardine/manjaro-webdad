@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="72"
+   width="36"
    height="72"
-   viewBox="0 0 72.000001 72.000001"
+   viewBox="0 0 36 72.000001"
    id="svg4747"
    version="1.1"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
@@ -26,16 +26,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.8013187"
-     inkscape:cx="36.309088"
+     inkscape:cx="43.147812"
      inkscape:cy="39.093095"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="809"
+     inkscape:window-width="1009"
      inkscape:window-height="488"
-     inkscape:window-x="231"
-     inkscape:window-y="431"
+     inkscape:window-x="314"
+     inkscape:window-y="360"
      inkscape:window-maximized="0"
      inkscape:document-rotation="0" />
   <metadata
@@ -72,16 +72,10 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-980.36216)">
-    <circle
-       style="opacity:1;fill:#222d32;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:1"
-       id="path4134"
-       cx="36"
-       cy="1016.3622"
-       r="30" />
     <path
        id="path4778-0"
-       style="fill:none;fill-opacity:0;fill-rule:evenodd;stroke:#cfd8dc;stroke-width:3.47880197;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.87000002"
-       d="m 29.059884,1009.4221 c 13.880232,13.8801 13.880232,13.8801 13.880232,13.8801 m -13.88023,0 c 13.88023,-13.8801 13.88023,-13.8801 13.88023,-13.8801"
+       style="fill:#ffffff;fill-opacity:0.99557525;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.25;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.87058824"
+       d="m 10.899977,1009.2623 c 14.200046,14.1998 14.200046,14.1998 14.200046,14.1998 m -14.200044,0 c 14.200044,-14.1998 14.200044,-14.1998 14.200044,-14.1998"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

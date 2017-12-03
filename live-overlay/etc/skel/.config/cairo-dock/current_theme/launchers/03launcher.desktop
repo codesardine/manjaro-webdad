@@ -21,7 +21,7 @@ Icon=/usr/share/icons/hicolor/scalable/apps/calamares.svg
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=calamares_polkit %f
+Exec=webdad-installer
 
 
 #X[Extra parameters]
