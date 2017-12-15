@@ -1,0 +1,18 @@
+{
+    "application": {
+
+        "name": "Manjaro Online Help - Forum",
+        "description": "Get Help from Manjaro Forum"
+    },
+
+    "window": {
+
+        "fullscreen": "yes",
+        "window_icon": "/usr/share/icons/manjaro/maia/96x96.png"
+    },
+
+    "webkit": {
+
+        "cache": "online"
+    }
+}

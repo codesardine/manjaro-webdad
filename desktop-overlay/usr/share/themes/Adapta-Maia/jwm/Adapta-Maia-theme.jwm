@@ -25,7 +25,7 @@
 
     <!-- Visual Style Menu. -->
     <MenuStyle decorations="flat">
-        <Font>Roboto-14:weight=bold:antialias=true:encoding=utf8</Font>
+        <Font>Roboto-13:antialias=true:encoding=utf8</Font>
         <Foreground>#ececec</Foreground>
         <Background>#222d32</Background>
 	<Outline>#222d32</Outline>

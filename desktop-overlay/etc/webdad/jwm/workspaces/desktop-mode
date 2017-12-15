@@ -1,45 +1,54 @@
 #!/bin/bash
 
-if pgrep -x "compton" > /dev/null; 
-then     echo "Running"; 
-else     compton -b --config /usr/share/themes/Adapta-Maia/openbox-3/compton.conf;
-fi &
+FILE=/tmp/webdad-first-run.lock  
+   
+if [ -f $FILE ]; then
 
-notify-send "Desktop Loading" &
+   rm $FILE && exit 0;
+
+else 
+
+  if pgrep -x "jade-dashboard" > /dev/null; 
+  then     echo "Running"; 
+  else     notify-send -i /opt/jade/img/jade-logo.svg "Desktop Loading" & /opt/jade/jade-dashboard;
+  fi & 
+
+  if pgrep -x "compton" > /dev/null; 
+  then     echo "Running"; 
+  else     compton --config /usr/share/themes/Adapta-Maia/openbox-3/compton.conf;
+  fi &
  
-if pgrep -x "steam" > /dev/null; 
-then     pkill steam; 
-fi &
+  if pgrep -x "steam" > /dev/null; 
+  then     pkill steam; 
+  fi &
 
-if pgrep -x "gnome-games" > /dev/null; 
-then     pkill gnome-games; 
-fi &
+  if pgrep -x "kodi" > /dev/null; 
+  then     pkill kodi; 
+  fi  &
 
-if pgrep -x "kodi" > /dev/null; 
-then     pkill kodi; 
-fi  &
+  if pgrep -x "cairo-dock" > /dev/null; 
+  then     echo "Running"; 
+  else     cairo-dock -o;
+  fi &
 
-if pgrep -x "cairo-dock" > /dev/null; 
-then     echo "Running"; 
-else     cairo-dock -o;
-fi &
+  if pgrep -x "blueman-applet" > /dev/null; 
+  then     echo "Running"; 
+  else     blueman-applet;
+  fi &
 
-if pgrep -x "msm_notifier" > /dev/null; 
-then     echo "Running"; 
-else     msm_notifier;
-fi &
+  if pgrep -x "msm_notifier" > /dev/null; 
+  then     echo "Running"; 
+  else     msm_notifier;
+  fi &
 
-if pgrep -x "nm-applet" > /dev/null; 
-then     echo "Running"; 
-else     nm-applet;
-fi &
+  if pgrep -x "nm-applet" > /dev/null; 
+  then     echo "Running"; 
+  else     nm-applet;
+  fi &
 
-if pgrep -x "pamac-tray" > /dev/null; 
-then     echo "Running"; 
-else     pamac-tray;
-fi &
+  if pgrep -x "pamac-tray" > /dev/null; 
+  then     echo "Running"; 
+  else     pamac-tray;
+  fi    
 
-if pgrep -x "jade-dashboard" > /dev/null; 
-then     echo "Running"; 
-else     dex /usr/share/applications/jade-dashboard.desktop;
-fi     
+fi

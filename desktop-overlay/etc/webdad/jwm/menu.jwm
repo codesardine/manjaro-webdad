@@ -3,10 +3,36 @@
 
   <!-- The root menu. -->
   <RootMenu onroot="3">
-    <Program label="File Manager">$JADE_FILE_MANAGER</Program>JADE_SOFTWARE_INSTALLER
-    <Program label="Browser">$JADE_BROWSER</Program>
-    <Program label="Install/Remove Applications">$JADE_SOFTWARE_INSTALLER</Program>
-    <Program label="Terminal">$JADE_TERMINAL</Program>
+    <Program 
+      label="F1 - Browser" 
+      tooltip="Open Default Browser"
+        >$JADE_BROWSER
+    </Program>
+    <Program 
+      label="F2 - File Manager"
+      tooltip="Browse Your Files"
+        >$JADE_FILE_MANAGER
+    </Program> 
+    <Program 
+      label="F3 - Software Center"
+      tooltip="Install/Remove Applications"
+        >$JADE_SOFTWARE_INSTALLER
+    </Program>
+    <Program 
+      label="F4 - Manjaro Settings"
+      tooltip="Configure - Language/Kernel/Users/Time/Date/Keyboard/Hardware"
+        >$JADE_SETTINGS
+    </Program>
+    <Program 
+      label="F5 - Terminal"
+      tooltip="Use The Command Line"
+        >$JADE_TERMINAL
+    </Program>
+    <Program
+      label="F10 - Desktop"
+      tooltip="Launch Desktop Environment"
+        >jade-desktop
+    </Program>
   </RootMenu>
 
 </JWM>

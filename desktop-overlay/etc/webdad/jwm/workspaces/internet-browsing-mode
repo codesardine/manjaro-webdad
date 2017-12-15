@@ -2,10 +2,10 @@
 
 if pgrep -x "compton" > /dev/null; 
 then     echo "Running"; 
-else     compton -b --config /usr/share/themes/Adapta-Maia/openbox-3/compton.conf;
+else     compton --config /usr/share/themes/Adapta-Maia/openbox-3/compton.conf;
 fi &
 
-notify-send "Internet Browsing Mode Loading" &
+notify-send -i /etc/webdad/jwm/workspaces/internet-browsing-mode.jpg "Internet Browsing Mode Loading" &
 
 if pgrep -x "jade-dashboard" > /dev/null; 
 then     pkill jade-dashboard; 
@@ -15,17 +15,18 @@ if pgrep -x "kodi" > /dev/null;
 then     pkill kodi; 
 fi &
 
-if pgrep -x "steam" > /dev/null; 
-then     pkill steam; 
+if pgrep -x "blueman-applet" > /dev/null; 
+then     pkill cairo-dock; 
 fi &
 
-if pgrep -x "gnome-games" > /dev/null; 
-then     pkill gnome-games; 
+if pgrep -x "steam" > /dev/null; 
+then     pkill steam; 
 fi &
 
 if pgrep -x "msm_notifier" > /dev/null; 
 then     pkill msm_notifier; 
 fi &
+
 
 if pgrep -x "pamac-tray" > /dev/null; 
 then     pkill pamac-tray; 

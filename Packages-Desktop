@@ -1,12 +1,12 @@
 ## Network
-avahi
+#avahi
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 networkmanager-dispatcher-ntpd
-nss-mdns # NSS support for mDNS (optdepend for avahi)
+#nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
 modemmanager
@@ -73,13 +73,13 @@ udisks2
 
 ## Fonts
 noto-fonts
-#noto-fonts-cjk
 ttf-roboto
-#ttf-liberation
 
 ## Games
->extra steam-manjaro
-gnome-games
+>extra steam-manjaro # needed for the workspaces
+pingus
+gnome-mahjongg
+aisleriot
 
 ## Package management
 pamac
@@ -109,7 +109,8 @@ pamac
 
 ## Display manager
 lightdm
-lightdm-webkit2-greeter-manjaro
+#lightdm-webkit2-greeter-manjaro
+lightdm-slick-greeter
 accountsservice  # Enhanced user accounts handling
 
 # bluetooth
@@ -117,30 +118,23 @@ bluez-cups
 bluez-firmware
 bluez-hid2hci
 bluez-plugins
-#bluez-tools
-#bluez-utils
 
 # improve responsiveness 
 preload
-#cpulimit
 irqbalance
 tracker
 
 # WebDad desktop
-skippy-xd
 jade-dashboard
 cairo-dock
 jwm
 compton
 hyper
 cairo-dock-plug-ins
-zeitgeist # needed for cairo-dock events
-gtk2 # needed for hyper
-
-# WebDad Essentials
+zeitgeist            # needed for cairo-dock events
 pa-applet
 blueman
-notification-daemon
+dunst
 dex
 feh
 polkit-gnome
@@ -152,7 +146,6 @@ pavucontrol
 gnome-keyring      # fix wlan segfault
 
 ## WebDad Group
-#tumbler
 nautilus
 nautilus-empty-file
 nautilus-open-terminal
@@ -163,49 +156,39 @@ nautilus-admin
 #seahorse-nautilus
 sushi
 file-roller
-
-#ffmpegthumbnailer  # tumbler - for video thumbnails
-#freetype2          # tumbler - for font thumbnails
-#gconf               # fix qt-theme
-#gksu
-#libgsf             # tumbler - for ODF thumbnails
-#libopenraw         # tumbler - for RAW thumbnails
-#poppler-glib       # tumbler - for PDF thumbnails
-#>extra poppler-data  # CKJ support for pdf
+timeshift
 
 ## Themes QT/GTK/SDDM
-#>extra manjaro-wallpapers-17.0
 paper-icon-theme-git
 adapta-maia-theme
 xcursor-breeze
 
 ## Applications
-kodi
+kodi      # needed for the workspaces
 lxrandr-gtk3
 gthumb
 #meld
-#>extra simple-scan
-#clementine
-#imagewriter
-#gtksourceview-pkgbuild
-gnome-screenshot
-#dmidecode # optional dependency inxi
+>extra simple-scan
+imagewriter
+dmidecode # optional dependency inxi
 gedit
 nano
 chromium
-#>extra gimp
-#gparted
-#>extra evolution
+inkscape
+gparted
+thunderbird
 gufw
 #>extra hexchat
-#htop
 evince
-#brasero
+brasero
 inxi
-#>extra libreoffice-fresh
+>extra libreoffice-fresh
 >extra vlc-nightly
+ms-office-online
+riot-desktop
+atom
 
-# Optional dependencies engrampa
+# Compression
 p7zip  # 7Z and ARJ archive support
 unace  # ACE archive support
 unrar  # RAR archive support

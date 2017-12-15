@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /opt/webapps/manjaro/wiki
+jak https://wiki.manjaro.org

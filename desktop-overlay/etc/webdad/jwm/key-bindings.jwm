@@ -2,15 +2,18 @@
 <JWM>
 
      <!-- Key applications. -->
-    <Key key="F1">exec:skippy-xd</Key>
-    <Key key="F2">exec:gnome-screenshot</Key>
-    <Key key="F6">exec:nautilus /home/$USER/.local/share/Trash</Key>
+    <Key key="F1">exec:$JADE_BROWSER</Key>
+    <Key key="F2">exec:$JADE_FILE_MANAGER</Key>
+    <Key key="F3">exec:$JADE_SOFTWARE_INSTALLER</Key>
+    <Key key="F7">exec:$JADE_SETTINGS</Key>
     <Key key="F7">exec:hyper</Key>
-
+    <Key key="F9">exec:nautilus /home/$USER/.local/share/Trash</Key>
+    <Key key="F10">exec:jade-desktop</Key>
+    
     <!-- Key system. -->
     <Key key="F12">root:1</Key>
     <Key mask="C" key="s">exec:jwm -restart</Key>
-    <Key mask="C" key="r">exec:jwm -reload</Key>
+    <Key mask="C" key="l">exec:jwm -reload</Key>
     <Key mask="Mod4" key="d">showdesktop</Key>
     <Key mask="" key="F12">maximize</Key>
    

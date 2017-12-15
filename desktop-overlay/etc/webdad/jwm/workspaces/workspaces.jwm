@@ -24,7 +24,7 @@
 
     <Desktop name="Spare Space">
       <Background type="command">
-        /etc/webdad/jwm/workspaces/desktop-mode
+        notify-send "Spare Space"
       </Background>
     </Desktop>
     <Desktop name="Gaming Space">

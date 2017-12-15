@@ -1,6 +1,7 @@
 #!/bin/bash
 
-notify-send "Gaming Mode Loading" &
+notify-send -i /usr/share/pixmaps/steam.png "Loading Steam Big Picture
+It might take a while" &
 
 if pgrep -x "jade-dashboard" > /dev/null; 
 then     pkill jade-dashboard; 
@@ -8,6 +9,14 @@ fi &
 
 if pgrep -x "cairo-dock" > /dev/null; 
 then     pkill cairo-dock; 
+fi &
+
+if pgrep -x "blueman-applet" > /dev/null; 
+then     pkill cairo-dock; 
+fi &
+
+if pgrep -x "kdeconnect-indicator" > /dev/null; 
+then     pkill kdeconnect-indicator; 
 fi &
 
 if pgrep -x "$JADE_BROWSER" > /dev/null; 
@@ -30,11 +39,11 @@ if pgrep -x "pamac-tray" > /dev/null;
 then     pkill pamac-tray; 
 fi &
 
-if pgrep -x "compton" > /dev/null; 
-then     pkill compton; 
-fi &
-
-if pgrep -x "gnome-games" > /dev/null; 
+if pgrep -x "steam" > /dev/null; 
 then     echo "Running"; 
-else     gnome-games;
+else     
+  steam -bigpicture &
+  if pgrep -x "compton" > /dev/null; 
+  then     pkill compton; 
+  fi
 fi
