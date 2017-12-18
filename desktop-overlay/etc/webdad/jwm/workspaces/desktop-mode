@@ -10,7 +10,7 @@ else
 
   if pgrep -x "jade-dashboard" > /dev/null; 
   then     echo "Running"; 
-  else     notify-send -i /opt/jade/img/jade-logo.svg "Desktop Loading" & /opt/jade/jade-dashboard;
+  else     notify-send -i /opt/jade/img/jade-logo.svg "Desktop Loading" & /usr/bin/jade-desktop;
   fi & 
 
   if pgrep -x "compton" > /dev/null; 

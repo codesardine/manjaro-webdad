@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <JWM>
-  
-  <StartupCommand>
-    /opt/jade/jade-dashboard
-  </StartupCommand>
 
   <StartupCommand>
   touch /tmp/webdad-first-run.lock
