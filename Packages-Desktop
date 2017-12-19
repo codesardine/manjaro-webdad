@@ -144,8 +144,7 @@ manjaro-settings-manager-notifier
 network-manager-applet
 pavucontrol
 gnome-keyring      # fix wlan segfault
-
-## WebDad Group
+gpointing-device-settings
 nautilus
 nautilus-empty-file
 nautilus-open-terminal
