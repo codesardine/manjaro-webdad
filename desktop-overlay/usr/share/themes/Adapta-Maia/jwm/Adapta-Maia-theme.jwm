@@ -65,10 +65,10 @@
 
     <!-- Visual Style Pop. -->
     <PopupStyle>
-        <Font>Roboto-14:antialias=true:encoding=utf8</Font>
-        <Outline>#222d32</Outline>
-        <Foreground>#ececec</Foreground>
-        <Background>#222d32</Background>
+        <Font>Roboto-13:antialias=true:encoding=utf8</Font>
+        <Outline>#ffffff</Outline>
+        <Foreground>#555753</Foreground>
+        <Background>#ffffff</Background>
         <delay>0</delay>
     </PopupStyle>
 
