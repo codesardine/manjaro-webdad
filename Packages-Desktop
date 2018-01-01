@@ -1,12 +1,10 @@
 ## Network
-#avahi
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
 networkmanager-dispatcher-ntpd
-#nss-mdns # NSS support for mDNS (optdepend for avahi)
 ntp
 mobile-broadband-provider-info
 modemmanager
@@ -158,6 +156,7 @@ file-roller
 timeshift
 
 ## Themes QT/GTK/SDDM
+bootsplash-theme-manjaro-elegant
 paper-icon-theme-git
 adapta-maia-theme
 xcursor-breeze
