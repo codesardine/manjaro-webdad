@@ -4,7 +4,7 @@
   <Tray 
     x="0" y="-1"
     label="systray"
-    height="26"
+    height="24"
     valign="top">
     <Spacer width="5"/>
     <Dock spacing="4" width="20"/>
