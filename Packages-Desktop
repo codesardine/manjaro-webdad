@@ -156,7 +156,7 @@ file-roller
 timeshift
 
 ## Themes QT/GTK/SDDM
-bootsplash-theme-manjaro-elegant
+#bootsplash-theme-manjaro-elegant
 paper-icon-theme-git
 adapta-maia-theme
 xcursor-breeze
