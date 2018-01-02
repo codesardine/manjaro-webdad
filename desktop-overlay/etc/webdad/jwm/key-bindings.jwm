@@ -5,8 +5,8 @@
     <Key key="F1">exec:$JADE_BROWSER</Key>
     <Key key="F2">exec:$JADE_FILE_MANAGER</Key>
     <Key key="F3">exec:$JADE_SOFTWARE_INSTALLER</Key>
-    <Key key="F7">exec:$JADE_SETTINGS</Key>
-    <Key key="F7">exec:hyper</Key>
+    <Key key="F4">exec:$JADE_SETTINGS</Key>
+    <Key key="F5">exec:hyper</Key>
     <Key key="F9">exec:nautilus /home/$USER/.local/share/Trash</Key>
     <Key key="F10">exec:jade-desktop</Key>
     
