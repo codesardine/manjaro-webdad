@@ -107,7 +107,6 @@ pamac
 
 ## Display manager
 lightdm
-#lightdm-webkit2-greeter-manjaro
 lightdm-slick-greeter
 accountsservice  # Enhanced user accounts handling
 
@@ -123,6 +122,9 @@ irqbalance
 tracker
 
 # WebDad desktop
+manjaro-webdad-settings
+webdad-speech
+webdad-webapps
 jade-dashboard
 cairo-dock
 jwm
@@ -142,10 +144,8 @@ manjaro-settings-manager-notifier
 network-manager-applet
 pavucontrol
 gnome-keyring      # fix wlan segfault
-gpointing-device-settings
 nautilus
 nautilus-empty-file
-nautilus-open-terminal
 nautilus-sendto
 nautilus-share
 nautilus-admin
@@ -156,29 +156,24 @@ file-roller
 timeshift
 
 ## Themes QT/GTK/SDDM
-#bootsplash-theme-manjaro-elegant
 paper-icon-theme-git
-adapta-maia-theme
 xcursor-breeze
 
 ## Applications
 kodi      # needed for the workspaces
 lxrandr-gtk3
 gthumb
-#meld
 >extra simple-scan
 imagewriter
 dmidecode # optional dependency inxi
 gedit
 nano
 chromium
-inkscape
 gparted
-thunderbird
+geary
 gufw
 #>extra hexchat
 evince
-brasero
 inxi
 >extra libreoffice-fresh
 >extra vlc-nightly
@@ -196,7 +191,7 @@ unrar  # RAR archive support
 manjaro-documentation-en
 
 ## Settings packages
-manjaro-browser-settings
+manjaro-browser-settings-native
 
 ## Xorg Input Drivers
 xf86-input-elographics
@@ -206,6 +201,7 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xf86-input-wacom
+xf86-input-synaptics
 
 ## Xorg Server and Graphics
 xdg-user-dirs

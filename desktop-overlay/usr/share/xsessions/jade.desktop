@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=Jade
-Comment=Jade Desktop Environment
-Exec=/usr/bin/jwm
-TryExec=/usr/bin/jwm
-Icon=/opt/jade/img/jade-logo.svg

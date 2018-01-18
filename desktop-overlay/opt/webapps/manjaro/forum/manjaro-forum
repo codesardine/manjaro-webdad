@@ -1,3 +1,0 @@
-#!/bin/bash
-cd /opt/webapps/manjaro/forum
-jak https://forum.manjaro.org/search
